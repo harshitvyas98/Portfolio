@@ -28,6 +28,36 @@
             height: 100%;
             border: none;
         }
+        body {
+			display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif
+		}
+        h1 {
+            margin-bottom: 20px;
+        }
+        .maze-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        .cell {
+            flex: 0 0 20px;
+            border: 1px solid hsl(0, 0%, 0%);
+            background-color: #000000;
+        }
     </style>
 </head>
 
@@ -44,7 +74,7 @@
             <div class="content">
                 <div class="inner">
                     <h1>Harshit Vyas</h1>
-                    <p>Hello, I’m Harshit Vyas. A Passionate Gameplay and Tools Programmer who loves to design and program game-focused applications.
+                    <p>Hello, I’m Harshit Vyas. A Passionate Gameplay and Tools Programmer who loves to design and program game-focused application.
                         <!--I Build Whatever the Fuck I want.-->
                     </p>
                     <p>
@@ -58,7 +88,7 @@
                         who am I?
                     </a></li>
                     <li><a href="#work">Project</a></li>
-		    <li><a href="#Models">3D-Models</a></li>
+                    <li><a href="#Models">3D-Models</a></li>
                     <li><a href="#maze">maze generator</a></li>
                     <li><a href="#ShortWork">Crunch-Time</a></li>
                     <li><a href="#about">Resume</a></li>
@@ -85,62 +115,65 @@
             <article id="work">
                 <h2 class="major">Work and Experience</h2>
                 <span class="image main"><img src="images/natu2.jpg" alt="" /></span>
+                
 		    
-		<h4> Game Developer, Arcadia (2020-2023)</h4>
+                <h4> Game Developer, Arcadia (2020-2023)</h4>
 
-                    <ul>
-                        <li>Developed automation tools in Unreal Engine to streamline and optimize various aspects of game development processes.</li>
-			<li>Created robust and scalable APIs and frameworks to enhance workflow efficiency and improve productivity</li>
-                        <li>Collaborated with artists and designers to create engaging and immersive gaming experiences.</li>
-                        <li>Participated in code reviews and provided feedback to other team members.</li>
-			<li>In case Youtube does not connect<a href="https://www.youtube.com/watch?v=rl5rNO4SR1g"> - Click Here</a></li>
-                    </ul>
+                <ul>
+                    <li>Developed automation tools in Unreal Engine to streamline and optimize various aspects of game development processes.</li>
+                    <li>Created robust and scalable APIs and frameworks to enhance workflow efficiency and improve productivity</li>
+                    <li>Collaborated with artists and designers to create engaging and immersive gaming experiences.</li>
+                    <li>Participated in code reviews and provided feedback to other team members.</li>
+                    <li>In case Youtube does not connect<a href="https://www.youtube.com/watch?v=rl5rNO4SR1g"> - Click Here</a></li>
+                </ul>
 
-		    <!-- Video stuff 0-->
-                <div class="container">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=rl5rNO4SR1g" allowfullscreen></iframe>
-		
+        <!-- Video stuff 0-->
+            <div class="container">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=rl5rNO4SR1g" allowfullscreen></iframe>
+    
 
-                </div>
-		    <p></p>
-		    
-		    <h3 class="major"> Personal Projects</h3>
+            </div>
+        <p></p>
+        
+        <h3 class="major"> Personal Projects</h3>
 
-		    <!-- Video stuff Blaster-->
-                <div class="container">
-                    <iframe class="responsive-iframe" src="https://youtu.be/6hBLnSHPL4g" allowfullscreen></iframe>
+        <!-- Video stuff Blaster-->
+            <div class="container">
+                <iframe class="responsive-iframe" src="https://youtu.be/6hBLnSHPL4g" allowfullscreen></iframe>
 
-                </div>
-		 
-                <div>
-                    <h4>Blaster Death match</h4>
+            </div>
+     
+            <div>
+                <h4>Blaster Death match</h4>
 
-                    <ul>
-                        <li>Unreal Engine (C++ Based)</li>
-                        <li>Multiplayer Third Person Shooter</li>
-                        <li>Based on Multiplayer Plugin
-                        </li>
-			<li>In case Youtube does not connect<a href="https://youtu.be/6hBLnSHPL4g"> - Click Here</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>Unreal Engine (C++ Based)</li>
+                    <li>Multiplayer Third Person Shooter</li>
+                    <li>Based on Multiplayer Plugin
+                    </li>
+        <li>In case Youtube does not connect<a href="https://youtu.be/6hBLnSHPL4g"> - Click Here</a></li>
+                </ul>
+            </div>
 
-		     <!-- plugin-->
-		    <div>
-                    <h4>Unreal Engine Multiplayer plugin</h4>
+         <!-- plugin-->
+        <div>
+                <h4>Unreal Engine Multiplayer plugin</h4>
 
-                    <ul>
-                        <li>Developed custom Unreal Engine multiplayer plugin</li>
-                        <li>Implemented advanced networking features for optimized gameplay</li>
-                        <li>Demonstrated strong problem-solving skills and expertise in C++ programming </li>
-                    </ul>
-                </div>
-		    
+                <ul>
+                    <li>Developed custom Unreal Engine multiplayer plugin</li>
+                    <li>Implemented advanced networking features for optimized gameplay</li>
+                    <li>Demonstrated strong problem-solving skills and expertise in C++ programming </li>
+                </ul>
+            </div>
+
                 <!-- Video stuff 1-->
                 <div class="container">
                     <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v66DdYGvll8" allowfullscreen></iframe>
 
                 </div>
-		 
+		    
+			    
+		    
                 <div>
                     <h4>Ship-Shooter</h4>
 
@@ -161,7 +194,7 @@
 
                 </div>
                 <div>
-                    <h4>The Chibi</h4>
+                    <h4>The Chibi Boy</h4>
 
                     <ul>
                         <li>Platform, Action-Adventure</li>
@@ -182,13 +215,34 @@
                     <ul>
                         <li>Unreal Engine (C++ based)</li>
                         <li>Top Down Shooter</li>
-                        <li>To Download the Game, please
+                        <li>To Download Game please
                             <a href="https://drive.google.com/drive/folders/1QD5XNOxWzTpK4mnmkP0QOkihk1nOARNe?usp=sharing">Click here</a>
                         </li>
                     </ul>
                 </div>
 
- <!--Models-->
+                <!-- Video stuff 4-->
+                <div class="container">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/-ZiYhOK9giQ" allowfullscreen></iframe>
+
+                </div>
+                <div>
+                    <h4>Melee Mortal</h4>
+
+                    <ul>
+                        <li>Unreal Engine (Blueprint based)</li>
+                        <li>Third Person</li>
+                        <li>Melee combat, Projectile shooting</li>
+                        <li>Download will be available soon.
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </article>
+            <!--Models-->
             <article id="Models">
                 <h2 class="major">3D-Models</h2>
                 <!-- Video stuff 1-->
@@ -249,9 +303,6 @@
                 </body>
                 
 
-
-
-            </article>
 
 
             </article>
